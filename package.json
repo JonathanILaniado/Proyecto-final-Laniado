@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18"
+  },
+  "name": "proyecto-final-laniado-coder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanILaniado/Proyecto-final-Laniado.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanILaniado/Proyecto-final-Laniado/issues"
+  },
+  "homepage": "https://github.com/JonathanILaniado/Proyecto-final-Laniado#readme",
+  "description": ""
+}
